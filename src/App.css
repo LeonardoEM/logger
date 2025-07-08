@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0f2f5, #e6ecf0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.Formulario {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+.Formulario img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.Element_Label {
+  display: block;
+  text-align: left;
+  margin: 0.5rem 0 0.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.Element_input[type="Text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+.Element_input[type="Password"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.Element_input[type="Text"]:focus {
+  border-color: #0078d7;
+  outline: none;
+}
+.Element_input[type="Password"]:focus {
+  border-color: #0078d7;
+  outline: none;
+}
+
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+.Element_button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0078d7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.Element_button:hover {
+  background-color: #005a9e;
+}
+img{
+  background: transparent;
+}
